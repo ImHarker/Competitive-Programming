@@ -2,13 +2,6 @@
 
 using namespace std;
 
-void clearV(int v[][2]) {
-    for (int i = 0; i < 26; i++) {
-        v[i][0] = 0;
-        v[i][1] = 0;
-    }
-}
-
 int main() {
     int home[30];
     int guest[30];
